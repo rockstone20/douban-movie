@@ -1,20 +1,21 @@
-# VUE 简易的仿豆瓣电影APP
+# douban-movie
 
-### 项目依赖
-``` 
-vue-router  路由
-vuex  状态管理
-vue-lazyload  图片懒加载
-jsonp  跨域请求接口
-better-scroll  制作滚动插件，上拉加载数据等
+> A Vue.js project
 
-运行： 定位到目录下 
+## Build Setup
 
-1.npm install
-- ---
-2.npm start 或 npm run dev
+``` bash
+# install dependencies
+npm install
 
-``` 
-因为跨域的原因项目使用jsonp请求数据， 实际上使用axios 本地设置代理也是可以的。网上关于axios 的用法还是比较多的，也比较简单，本例子就不再说明了。
+# serve with hot reload at localhost:8080
+npm run dev
 
-#### 原来计划用weex写个豆瓣demo，无奈坑点较多，暂时写不完整，然后花了一个周末的时间用VUE写个DEMO，虽然简单但使用的技术面还是比较全面的。
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
