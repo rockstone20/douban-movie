@@ -12,12 +12,14 @@ vue-lazyload  图片懒加载
 jsonp  跨域请求接口
 better-scroll  制作滚动插件，上拉加载数据等
 
-```base
-# 安装依赖
+```
+# 安装依赖 - 
+定位到目录下
 npm install
 
-# 启动服务  浏览器打开地址 localhost:8080
+# 启动服务  
 npm start 或 npm run dev
+浏览器打开地址 localhost:8080
 
 ``` 
 因为跨域的原因项目使用jsonp请求数据， 实际上使用axios 本地设置代理也是可以的。网上关于axios 的用法还是比较多的，也比较简单，本例子就不再说明了。
