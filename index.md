@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# VUE 简易的仿豆瓣电影APP
 
-You can use the [editor on GitHub](https://github.com/rockstone20/douban-movie/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### 项目依赖
+``` 
+vue-router  路由
+vuex  状态管理
+vue-lazyload  图片懒加载
+jsonp  跨域请求接口
+better-scroll  制作滚动插件，上拉加载数据等
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+运行： 定位到目录下 
 
-### Markdown
+1.npm install
+- ---
+2.npm start 或 npm run dev
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+``` 
+因为跨域的原因项目使用jsonp请求数据， 实际上使用axios 本地设置代理也是可以的。网上关于axios 的用法还是比较多的，也比较简单，本例子就不再说明了。
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rockstone20/douban-movie/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 原来计划用weex写个豆瓣demo，无奈坑点较多，写不完整，然后花了个周末的时间用VUE写个DEMO供新手学习，使用的技术面还是比较全面的。
