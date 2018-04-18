@@ -25,14 +25,14 @@
 </template>
 
 <style scoped>
-.search-box {padding:10px 18px;}
-.search {height:26px; border-radius:4px; background:#f5f5f5; position:relative; display:flex;}
-.search i {width:30px; line-height:28px; text-align:center; color:#999;}
-.search i.icon-delete {font-size:22px;}
-.search input {flex:1; border:0; outline:0; background:none; line-height:28px; height:28px; font-size:14px; color:#666;}
+.search-box {padding:20px 36px;}
+.search {height:52px; border-radius:8px; background:#f5f5f5; position:relative; display:flex;}
+.search i {width:60px; line-height:56px; text-align:center; color:#999;}
+.search i.icon-delete {font-size:44px;}
+.search input {flex:1; border:0; outline:0; background:none; line-height:56px; height:56px; font-size:28px; color:#666;}
 
-.search-wrapper {position:absolute; left:0; top:44px; right:0; bottom:44px; background:#f5f5f5; overflow:hidden;}
-.loadmore {text-align:center; line-height:32px; color:#999; text-align:center;}
+.search-wrapper {position:absolute; left:0; top:88px; right:0; bottom:88px; background:#f5f5f5; overflow:hidden;}
+.loadmore {text-align:center; line-height:64px; color:#999; text-align:center;}
 ::-webkit-input-placeholder{color:#bbb;}
 ::-moz-placeholder {color:#bbb;}
 </style>

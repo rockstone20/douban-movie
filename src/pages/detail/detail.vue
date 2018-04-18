@@ -41,24 +41,24 @@
 </template>
 <style scoped>
   .detail-wrapper{position:absolute; left:0; top:0; width:100%; background:#f5f5f5; min-height:100%; z-index:99;}
-  .topbar {line-height:42px; background:rgba(0,0,0,.8); text-align:center; color:#fff; font-size:16px; position:fixed; left:0; top:0; right:0;}
-  .topbar .back {width:40px; position:absolute; left:0; top:0;}
-  .topbanner {padding-top:50px; padding-bottom:10px; background:#222; text-align:center; height:320px;}
+  .topbar {line-height:84px; background:rgba(0,0,0,.8); text-align:center; color:#fff; font-size:32px; position:fixed; left:0; top:0; right:0;}
+  .topbar .back {width:80px; position:absolute; left:0; top:0;}
+  .topbanner {padding-top:100px; padding-bottom:10px; background:#222; text-align:center; height:640px;}
   .topbanner img{max-height:100%; display:inline-block;}
-  .inside {padding:12px 20px;}
-  .film-msg {color:#999; line-height:14px; display:flex; font-size:11px; padding-top:22px;}
-  .film-msg .msg-box {padding-right:20px; flex:1; }
-  .film-msg .msg-box h1{margin-bottom:12px; color:#333;}
-  .film-msg .rating-box {width:82px; height:82px; background:#fff; box-shadow:0 0 8px rgba(0,0,0,.1); text-align:center; display:flex; flex-direction:column; justify-content:center;}
+  .inside {padding:24px 40px;}
+  .film-msg {color:#999; line-height:28px; display:flex; font-size:22px; padding-top:44px;}
+  .film-msg .msg-box {padding-right:40px; flex:1; }
+  .film-msg .msg-box h1{margin-bottom:24px; color:#333;}
+  .film-msg .rating-box {width:164px; height:164px; background:#fff; box-shadow:0 0 16px rgba(0,0,0,.1); text-align:center; display:flex; flex-direction:column; justify-content:center;}
   .film-msg .rating-box h2 {color:#333; padding:3px 0;}
-  .want-btn {display:block; line-height:36px; border-radius:4px; color:#ffb712;  border:1px solid #ffb712; text-align:center; font-size:14px;}
+  .want-btn {display:block; line-height:72px; border-radius:8px; color:#ffb712;  border:2px solid #ffb712; text-align:center; font-size:28px;}
   .want-btn.iswant {color:#999; border-color:#999;}
-  .small_title {color:#999; padding-bottom:6px;}
-  .summary .info {font-size:14px;}
+  .small_title {color:#999; padding-bottom:12px;}
+  .summary .info {font-size:28px;}
 
-  .casts-wrapper {margin-right:-8px; display:flex;}
-  .casts-wrapper li {flex:1; width:0; text-align:center; padding-right:8px;}
-  .casts-wrapper li img{max-width:100%; display:block; margin-bottom:4px;}
+  .casts-wrapper {margin-right:-16px; display:flex;}
+  .casts-wrapper li {flex:1; width:0; text-align:center; padding-right:16px;}
+  .casts-wrapper li img{max-width:100%; display:block; margin-bottom:8px;}
 </style>
 
 <script>

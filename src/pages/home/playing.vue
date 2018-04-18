@@ -17,8 +17,8 @@
 
 <style scoped>
   .wrapper {position:absolute; width:100%; left:0; top:0; bottom:0; }
-  .playing-wrapper {position:absolute; width:100%; left:0; top:43px; bottom:44px; overflow:hidden; background:#fff;}
-  .loadmore {text-align:center; line-height:32px; color:#999; text-align:center;}
+  .playing-wrapper {position:absolute; width:100%; left:0; top:86px; bottom:88px; overflow:hidden; background:#fff;}
+  .loadmore {text-align:center; line-height:64px; color:#999; text-align:center;}
 </style>
 
 <script>

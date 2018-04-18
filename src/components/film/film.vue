@@ -13,14 +13,14 @@
 </template>
 
 <style scoped>
-  .film-item {display:flex; padding:12px; flex-wrap: wrap; border-bottom:1px solid #f5f5f5; background:#fff;}
-  .film-item .img {width:80px; } .film-item .img img{width:100%; display:block;}
-  .film-msg {flex:1; padding-left:16px; color:#999; width:0;}
-  .film-msg h2 {font-size:16px; color:#333; margin-bottom:10px;}
-  .film-msg .star-box { padding-bottom:8px;}
+  .film-item {display:flex; padding:24px; flex-wrap: wrap; border-bottom:2px solid #f5f5f5; background:#fff;}
+  .film-item .img {width:160px; } .film-item .img img{width:100%; display:block;}
+  .film-msg {flex:1; padding-left:32px; color:#999; width:0;}
+  .film-msg h2 {font-size:32px; color:#333; margin-bottom:20px;}
+  .film-msg .star-box { padding-bottom:16px;}
 
-  .button-box {color:#ffb712; width:80px; text-align:right; padding-top:20px;}
-  .button-box .BTN { line-height:24px; color:#ffb712; padding:0 16px; border:1px solid #ffb712; display:inline-block; border-radius:4px; margin-top:6px;}
+  .button-box {color:#ffb712; width:160px; text-align:right; padding-top:40px;}
+  .button-box .BTN { line-height:48px; color:#ffb712; padding:0 32px; border:2px solid #ffb712; display:inline-block; border-radius:8px; margin-top:16px;}
 </style>
 
 <script>

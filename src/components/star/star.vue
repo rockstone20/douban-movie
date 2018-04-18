@@ -42,11 +42,11 @@
 <style>
 	.star { text-align:center; display:inline-block;}
 	.star .star-item{font-size:0; display:inline-block; background-repeat:no-repeat;}
-  .star-24 .star-item {width:12px; height:12px; margin-right:4px; background-size:12px 12px;}
-	.star-item:last-child { margin-right:0px;}
+  .star-24 .star-item {width:24px; height:24px; margin-right:8px; background-size:24px 24px;}
+	.star-item:last-child { margin-right:0;}
 	.star-item.on {background-image:url(star48_on.png);}
 	.star-item.half {background-image:url(star48_half.png);}
 	.star-item.off {background-image:url(star48_off.png);}
 
-	.star-16 .star-item {width:10px; height:10px; margin-right:2px; background-size:10px 10px;}
+	.star-16 .star-item {width:20px; height:20px; margin-right:4px; background-size:20px 20px;}
 </style>

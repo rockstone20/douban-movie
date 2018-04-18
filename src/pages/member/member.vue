@@ -13,12 +13,12 @@
 </template>
 
 <style scoped>
-.top{height:120px; background:#00b4aa; display:flex; flex-direction: column; justify-content:center; align-items:center;}
-.face {width:60px; height:60px; padding:10px; border-radius:50%; overflow:hidden; background:#fff; border:1px solid #fff;}
+.top{height:240px; background:#00b4aa; display:flex; flex-direction: column; justify-content:center; align-items:center;}
+.face {width:120px; height:120px; padding:20px; border-radius:50%; overflow:hidden; background:#fff; border:2px solid #fff;}
 .face img{max-width:100%;}
-.want{line-height:40px; padding:0 12px; color:#999; background:#fff; font-size:14px;}
+.want{line-height:80px; padding:0 24px; color:#999; background:#fff; font-size:28px;}
 
-.wrapper {background:#f5f5f5; position:absolute; left:0; right:0; top:160px; bottom:45px; padding-top:10px;}
+.wrapper {background:#f5f5f5; position:absolute; left:0; right:0; top:320px; bottom:90px; padding-top:20px;}
 
 </style>
 

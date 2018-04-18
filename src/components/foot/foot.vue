@@ -6,10 +6,10 @@
 </div>
 </template>
 <style scoped>
-.footer {display:flex; background:#f5f5f5; border-top:1px solid #d5d5d5; position:absolute; left:0; bottom:0; right:0; z-index:9;}
-.footer a {flex:1; text-align:center; height:44px; padding-top:6px; line-height:16px; color:#999;}
+.footer {display:flex; background:#f5f5f5; border-top:2px solid #d5d5d5; position:absolute; left:0; bottom:0; right:0; z-index:9;}
+.footer a {flex:1; text-align:center; height:88px; padding-top:12px; line-height:32px; color:#999;}
 .footer .router-link-active {color:#333;}
-.iconfont {font-size:24px;}
+.iconfont {font-size:48px;}
 </style>
 <script>
   export default {

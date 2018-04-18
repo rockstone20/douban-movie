@@ -17,6 +17,6 @@ export default {
 </script>
 
 <style scoped>
-  .loading{ width: 100%; height:60px; text-align:center; position:absolute; top:50%; transform: translateY(-50%);}
-  .loading p {line-height:24px;  font-size:14px; color:#999;}
+  .loading{ width: 100%; height:120px; text-align:center; position:absolute; top:50%; transform: translateY(-50%);}
+  .loading p {line-height:48px;  font-size:28px; color:#999;}
 </style>
