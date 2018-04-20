@@ -1,36 +1,36 @@
-## ˵��
+## 说明
 
-##### ԭ���ƻ���weexд������demo�����οӵ�϶࣬��ʱ�����ˣ�Ȼ����һ����ĩ��ʱ����VUEд��DEMO����Ȼ�򵥵�ʹ�õļ����滹�ǱȽ�ȫ���,������ѧϰ�ο��������ٳ���WEEX��DEMO
+##### 原来计划用weex写个豆瓣demo，无奈坑点较多，暂时放弃了，然后花了一个周末的时间用VUE写个DEMO，虽然简单但使用的技术面还是比较全面的,供新手学习参考，将来再出个WEEX版DEMO
 
-����Ȥ��ͬѧ ����start��лл ?O(��_��)O ? 
+有兴趣的同学 给个start，谢谢 O(∩_∩)O 
 
-## ��Ŀ����
+## 项目依赖
 ``` 
-vue-router  ·��
-vuex  ״̬����
-vue-lazyload  ͼƬ������
-jsonp  ��������ӿ�
-better-scroll  ������������������������ݵ�
+vue-router  路由
+vuex  状态管理
+vue-lazyload  图片懒加载
+jsonp  跨域请求接口
+better-scroll  制作滚动插件，上拉加载数据等
 
 
-# ��װ���� - 
-��λ��Ŀ¼��
+# 安装依赖 - 
+定位到目录下
 npm install
 
-# �������� ?
-npm start �� npm run dev
-������򿪵�ַ localhost:8080
+# 启动服务 ?
+npm start 或 npm run dev
+浏览器打开地址 localhost:8080
 
 ``` 
-��Ϊ�����ԭ����Ŀʹ��jsonp�������ݣ� ʵ����ʹ��axios �������ô���Ҳ�ǿ��Եġ����Ϲ���axios ���÷����ǱȽ϶�ģ�Ҳ�Ƚϼ򵥣������ӾͲ���˵���ˡ�
+因为跨域的原因项目使用jsonp请求数据， 实际上使用axios 本地设置代理也是可以的。网上关于axios 的用法还是比较多的，也比较简单，本例子就不再说明了。
 
 
 
-## ���� ʹ��vw��������Ļ����  
+## 适配 使用vw添加了屏幕适配  
 
 
 
-## Ч��ͼ
+## 效果图
 
 ![image](https://github.com/rockstone20/douban-movie/blob/master/static/ui/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180417141833.jpg?raw=true)
 
